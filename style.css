@@ -503,7 +503,7 @@ footer{
     left:-100%;
     width:100%;
     /*background:#0B1F3A;*/
-	background:#FFF;
+	background:#f5f7fa;
     flex-direction:column;
     text-align:center;
     transition:.4s;
