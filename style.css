@@ -502,7 +502,8 @@ footer{
     top:80px;
     left:-100%;
     width:100%;
-    background:#0B1F3A;
+    /*background:#0B1F3A;*/
+	background:#FFF;
     flex-direction:column;
     text-align:center;
     transition:.4s;
