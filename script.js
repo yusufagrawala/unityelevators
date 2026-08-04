@@ -19,16 +19,16 @@ document.addEventListener("DOMContentLoaded", () => {
             navLinks.classList.toggle("active");
 
             if (navLinks.classList.contains("active")) {
-                menuBtn.innerHTML = "?";
+                menuBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
             } else {
-                menuBtn.innerHTML = "?";
+                menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
             }
         });
 
         document.querySelectorAll(".nav-links a").forEach(link => {
             link.addEventListener("click", () => {
                 navLinks.classList.remove("active");
-                menuBtn.innerHTML = "?";
+                menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
             });
         });
     }
